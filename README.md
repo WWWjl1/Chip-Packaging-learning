@@ -1,6 +1,22 @@
 # Chip-Packaging-Learning
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
 > 先进封装（Advanced Packaging）方向的学习笔记与仿真实验。
+
+**目录**
+
+- [内容](#内容)
+- [学习笔记](#学习笔记)
+- [仿真实验](#仿真实验)
+- [硬件项目](#硬件项目)
+- [环境](#环境)
+- [许可证](#许可证)
+
+---
 
 ## 内容
 
@@ -43,6 +59,15 @@ Chip-Packaging-Learning/
 见 [`simulation/`](simulation/)。用 2D 稳态热扩散方程 + 有限差分，把每个 I/O Bump 当作热源、芯片四周当作散热边界，迭代求解温度场并画出热力分布。
 
 > 基于热传导方程对封装散热路径进行了简化建模。
+
+**运行效果：**
+
+![芯片 I/O 热力分布](simulation/chip_thermal_map.png)
+
+```bash
+pip install -r simulation/requirements.txt
+python simulation/chip_thermal_map.py
+```
 
 ## 🧩 硬件项目
 

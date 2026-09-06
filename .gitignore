@@ -6,10 +6,11 @@ __pycache__/
 venv/
 env/
 
-# 输出图（本地生成，不入库）
+# 输出图（本地生成，默认不入库；示例渲染图保留入库）
 *.png
 *.jpg
 *.jpeg
+!simulation/chip_thermal_map.png
 
 # IDE
 .vscode/
